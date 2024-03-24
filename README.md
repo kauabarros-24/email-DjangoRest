@@ -1,2 +1,1 @@
-Desejo implementar esta funcionalidade no trabalho de dev web <br>
-Segui o tutorial, presente no github, do LucasGabrielAntonete -><br> Link: https://github.com/LucasGabrielAntonete/EnvioEmail_DjangoRest
+Link do autor do tutorial: https://github.com/LucasGabrielAntonete/EnvioEmail_DjangoRest
