@@ -23,5 +23,4 @@ class EmailAPIView(APIView):
         except ValidationError as e:
             return HttpResponse(str(e))
         return HttpResponse(
-            {'Email enviado com sucesso'}, status = status.HTTP_200_OK
-        )
+            {'Email enviado com sucesso'}, status = status.HTTP_200_OK)
