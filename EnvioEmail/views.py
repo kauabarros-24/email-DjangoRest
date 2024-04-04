@@ -7,9 +7,9 @@ from django.http import HttpResponse
 
 class EmailAPIView(APIView):
     def post(self, request, *args, **kwargs):
-        subject = request.POST.get("subject", "A sessão do whatsApp expirou")
-        message = request.POST.get("message", "Não consigo mais acessar o whatsApp, pois o meu celular está quebrado e no computador foi desconectado")
-        recipient_list = ["ju.bm.barros@gmail.com", "martinsbarroskaua@gmail.com", "joaovictor239090@gmail.com"]
+        subject = request.POST.get("subject", "Esse email foi gerado pelo bot do Kauã")
+        message = request.POST.get("message", "Ok, obrigado")
+        recipient_list = ["ju.bm.barros@gmail.com", "martinsbarroskaua@gmail.com"]
         from_email = "martinsbarroskaua85@gmail.com"
         try:
             send_mail(
