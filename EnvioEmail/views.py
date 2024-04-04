@@ -7,8 +7,8 @@ from django.http import HttpResponse
 
 class EmailAPIView(APIView):
     def post(self, request, *args, **kwargs):
-        subject = request.POST.get("subject", "Seu cabeçalho aqui")
-        message = request.POST.get("message", "Sua mensagem aqui")
+        subject = request.POST.get("subject", "O Kauã é lindo")
+        message = request.POST.get("message", "Quem respira concorda")
         recipient_list = ["martinsbarroskaua@gmail.com"]
         from_email = "martinsbarroskaua85@gmail.com"
         try:
